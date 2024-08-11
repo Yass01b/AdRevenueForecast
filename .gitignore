@@ -1,0 +1,13 @@
+# Ignore environment variables
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDE/editor settings
+.vscode/
+
+# Ignore compiled C extensions
+*.so
