@@ -6,8 +6,8 @@ from prophet import Prophet
 
 
 # Load models and the label encoder
-campaign_models = joblib.load('campaign_models.pkl')
-label_encoder = joblib.load('label_encoder_new.pkl')
+campaign_models = joblib.load('models/campaign_models.pkl')
+label_encoder = joblib.load('models/label_encoder_new.pkl')
 
 def get_forecast(future_dates, new_regressors, campaign_id, campaign_models):
     future = pd.DataFrame({'ds': pd.to_datetime(future_dates)})
