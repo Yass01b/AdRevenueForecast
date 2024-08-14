@@ -1,5 +1,8 @@
 # AdRevenueForecast is a time-series forecasting app designed to predict ad campaigns revenue using Facebook Prophet model.
 
+![Predicting App Screenshot](images/screen.jpg)  
+[Predicting App Link](https://adrevenue.streamlit.app)
+
 ---
 
 ## Exploratory Data Analysis (EDA)
